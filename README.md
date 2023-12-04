@@ -29,16 +29,26 @@ O projeto está organizado da seguinte forma:
   - **ProprietarioView.java** - Classe para interação com o usuário para a entidade Proprietario.
   - **EnderecoView.java** - Classe para interação com o usuário para a entidade Endereco.
 
-Configuração do Banco de Dados
-Certifique-se de ter um servidor MySQL em execução e crie um banco de dados chamado imobiliariabd_m3. As configurações de conexão com o banco de dados podem ser ajustadas no arquivo src/ConexaoJDBC.java.
-Observação: Lembre-se de modificar as informações de conexão conforme o banco de dados local utilizado por você. Se estiver utilizando um banco de dados diferente ou estiver em um ambiente local, certifique-se de atualizar as configurações de host, porta, nome do banco de dados, nome de usuário e senha de acordo com suas configurações específicas.
-java
-Copy code
+## Configuração do Banco de Dados
+
+Para utilizar corretamente o sistema, siga as instruções abaixo para configurar o banco de dados:
+
+1. Certifique-se de ter um servidor MySQL em execução.
+2. Crie um banco de dados chamado `imobiliariabd_m3`.
+
+As configurações de conexão com o banco de dados podem ser ajustadas no arquivo `src/ConexaoJDBC.java`. Não se esqueça de observar as seguintes considerações:
+
+- **Observação:** Lembre-se de modificar as informações de conexão conforme o banco de dados local utilizado por você. Se estiver utilizando um banco de dados diferente ou estiver em um ambiente local, certifique-se de atualizar as configurações de host, porta, nome do banco de dados, nome de usuário e senha de acordo com suas configurações específicas.
+
+**Exemplo de configuração:**
+
+```java
 // Exemplo de configuração
 String url = "jdbc:mysql://localhost:3306/imobiliariabd_m3";
 String usuario = "seu_usuario";
 String senha = "sua_senha";
 Certifique-se de substituir "seu_usuario" e "sua_senha" pelos detalhes de autenticação específicos do seu banco de dados. Isso garantirá uma conexão adequada ao banco de dados local.
+
 ## Uso
 1. Clone o repositório.
 2. Configure o banco de dados conforme mencionado acima.
