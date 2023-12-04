@@ -48,7 +48,7 @@ String url = "jdbc:mysql://localhost:3306/imobiliariabd_m3";
 String usuario = "seu_usuario";
 String senha = "sua_senha";
 Certifique-se de substituir "seu_usuario" e "sua_senha" pelos detalhes de autenticação específicos do seu banco de dados. Isso garantirá uma conexão adequada ao banco de dados local.
-
+```
 ## Uso
 1. Clone o repositório.
 2. Configure o banco de dados conforme mencionado acima.
